@@ -1,0 +1,28 @@
+{
+  "name": "node-mimetype",
+  "version": "1.1.1",
+  "description": "Node js library for checking the mime type of a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoooman001/mimetype.git"
+  },
+  "keywords": [
+    "Mimetype",
+    "File type"
+  ],
+  "author": "Midhun P M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hoooman001/mimetype/issues"
+  },
+  "homepage": "https://github.com/Hoooman001/mimetype#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.1.3"
+  }
+}
