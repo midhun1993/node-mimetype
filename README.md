@@ -1,6 +1,8 @@
 # node-mimetype
 
-We can get the mime type of files by using this package, This package is using linux mimetype library.
+Find mime type of a file, We are finding the mime type by analyzing the signature bits so it dont have any dependencies, More fast than other libraries,
+
+** We can identify 250+ mime types**
 
 ## Usage
 

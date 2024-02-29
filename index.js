@@ -5,7 +5,7 @@ module.exports = async function (_fp, _returnPossibleExtensionsList = false) {
   const hexToMatch = file.toString('hex').substring(0,99).toLocaleUpperCase();
   let _fInfo = null;
   let hexAddition = '';
-  let _sig = signatures;
+  let _sig = [...signatures];
   while(hexToMatch.length > hexAddition.length ){
       let _filteredSig = _sig.filter((item) =>{ 
           return item.signature.match(new RegExp(hexAddition));
